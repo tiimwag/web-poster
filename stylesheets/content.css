@@ -1,0 +1,588 @@
+body {
+  background-color: #EDEDED;
+  /* width: 1440px; */
+  overflow-x: hidden;
+}
+body img, body p {
+  position: absolute;
+}
+p {
+  font-family: "PPNeueMontreal";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 43px;
+}
+.t1 {
+  width: 425px;
+  height: 86px;
+  left: 489px;
+  top: 191px;
+  transform: rotate(-10deg);
+  z-index: 1;
+}
+.t2 {
+  width: 425px;
+  height: 86px;
+  left: 720px;
+  top: 1126px;
+  transform: rotate(9deg);
+  z-index: 1;
+}
+.t3 {
+  width: 491px;
+  height: 86px;
+  left: 512px;
+  top: 1878px;
+  transform: rotate(8deg);
+  z-index: 1;
+}
+.duodrop1 {
+  width: 288px;
+  height: 111px;
+  left: -53px;
+  top: 162px;
+  transform: rotate(58deg);
+  animation: duodrop1 8s ease-in-out infinite;
+  animation-delay: -3s;
+  z-index: 2;
+}
+@keyframes duodrop1 {
+  0% {width: 288px; height: 80px; opacity: 80%; filter: blur(30px); transform: rotate(64deg); opacity: 0}
+  50% {left: -53px; top: 162px; width: 288px; height: 111px; opacity: 100%; filter: blur(0); transform: rotate(58deg); opacity: 100%}
+  100% {left: -162px; top: -17px; width: 568px; height: 266px; opacity: 90%; filter: blur(34px); transform: rotate(52deg); opacity: 0}
+}
+.l {
+  height: 214px;
+  width: 123px;
+  left: 187px;
+  top: 74px;
+  animation: l 2s ease-in-out infinite;
+  animation-direction: alternate;
+  z-index: 1;
+}
+@keyframes l {
+  0% {top: 74px}
+  100% {top: 114px}
+}
+.i1 {
+  height: 215px;
+  width: 122px;
+  left: 330px;
+  top: 139px;
+  animation: i1 2s ease-in-out infinite;
+  animation-direction: alternate;
+  z-index: 1;
+}
+@keyframes i1 {
+  0% {top: 139px}
+  100% {top: 89px}
+}
+.i3 {
+  height: 215px;
+  width: 122px;
+  left: 730px;
+  top: 1569px;
+}
+
+.cloud1 {
+  height: 356px;
+  width: 577px;
+  left: 546px;
+  top: -208px;
+  transform: rotate(333deg);
+  transition: all 2s ease-out;
+  z-index: 2;
+}
+.cloud1:hover {
+  height: 510px;
+  width: 703px;
+  left: 532px;
+  top: -289px;
+  transform: rotate(338deg);
+  filter: blur(30px);
+  transition: all 2s ease-out;
+}
+.squaref1 {
+  height: 267px;
+  width: 267px;
+  left: 1147px;
+  top: 135px;
+  transform: rotate(297deg);
+  animation: squaref1 10s ease-in-out infinite;
+  animation-delay: -5s;
+}
+@keyframes squaref1 {
+  0% {z-index: 1; height: 168px; width: 250px; left: 1147px; top: 135px; transform: rotate(297deg); opacity: 0; filter: blur(20px);}
+  50% {z-index: 0; height: 267px; width: 267px; left: 1147px; top: 135px; transform: rotate(315deg); opacity: 100%; filter: blur(0);}
+  100% {z-index: 0; height: 449px; width: 404px; left: 1184px; top: -30px; transform: rotate(356deg); opacity: 0; filter: blur(20px);}
+}
+.star1 {
+  height: 466px;
+  width: 345px;
+  left: -51px;
+  top: 304px;
+  transform: rotate(-17deg);
+  animation: star1 10s ease-in-out infinite;
+  z-index: 1;
+}
+@keyframes star1 {
+  0% {height: 466px; width: 345px; left: -51px; top: 304px; transform: rotate(340deg); filter: blur(15px); opacity: 0}
+  50% {height: 593px; width: 482px; left: -144px; top: 271px; transform: rotate(334deg); filter: blur(0); opacity: 100%}
+  100%{height: 713px; width: 527px; left: -240px; top: 300px; transform: rotate(326deg); filter: blur(35px); opacity: 0}
+}
+.rect1 {
+  width: 45px;
+  height: 166px;
+  left: 313px;
+  top: 416px;
+  transform: rotate(0);
+  filter: blur(0);
+  opacity: 100%;
+  transition: all 20s linear;
+}
+.rect1:hover {
+  transform: rotate(-2000deg);
+  filter: blur(20px);
+  opacity: 0;
+  transition: all 20s linear;
+}
+.rect2 {
+  width: 45px;
+  height: 166px;
+  left: 382px;
+  top: 454px;
+  transform: rotate(115deg);
+  filter: blur(0);
+  opacity: 100%;
+  transition: all 20s linear;
+}
+.rect2:hover {
+  transform: rotate(2000deg);
+  filter: blur(20px);
+  opacity: 0;
+  transition: all 20s linear;
+}
+.arrow1 {
+  width: 201px;
+  height: 147px;
+  left: 475px;
+  top: 332px;
+  transform: rotate(62deg);
+  animation: arrow1 1s ease-in-out infinite;
+  animation-direction: alternate;
+}
+@keyframes arrow1 {
+  0% {left: 475px; top: 332px}
+  100% {left: 498px; top: 360px;}
+}
+.squares1 {
+  width: 187px;
+  height: 187px;
+  left: 687px;
+  top: 292px;
+  transform: rotate(330deg);
+  animation: squares1 2s ease-in-out infinite;
+  animation-direction: alternate;
+}
+@keyframes squares1 {
+  0% {left: 687px; transform: rotate(330deg)}
+  100% {left: 739px; transform: rotate(390deg)}
+}
+.star2 {
+  height: 147px;
+  width: 124px;
+  left: 711px;
+  top: 226px;
+  transform: rotate(35deg);
+  animation: star2 9s ease-in-out infinite;
+}
+@keyframes star2 {
+  0% {height: 147px; width: 124px; left: 711px; top: 238px; transform: rotate(35deg); filter: blur(20px); opacity: 0}
+  50% {height: 239px; width: 225px; left: 694px; top: 226px; transform: rotate(43deg); filter: blur(0); opacity: 100%}
+  100% {height: 462px; width: 374px; left: 630px; top: 149px; transform: rotate(55deg); filter: blur(20px); opacity: 0}
+}
+.longdrop1 {
+  width: 226px;
+  height: 375px;
+  left: 988px;
+  top: 164px;
+  transform: rotate(33deg);
+  animation: longdrop1 10s ease-in-out infinite;
+}
+@keyframes longdrop1 {
+  0% {z-index: 0; width: 140px; height: 375px; left: 988px; top: 230px; transform: rotate(9deg); opacity: 0; filter: blur(30px)}
+  50% {z-index: 1; width: 226px; height: 375px; left: 988px; top: 164px; transform: rotate(33deg); opacity: 100%; filter: blur(0)}
+  100% {z-index: 1; width: 620px; height: 909px; left: 1026px; top: -240px; transform: rotate(47deg); opacity: 0; filter: blur(30px)}
+}
+.m1 {
+  height: 294px;
+  width: 153px;
+  left: 583px;
+  top: 756px;
+  animation: m1 2s ease-in-out infinite;
+  animation-direction: alternate;
+}
+@keyframes m1 {
+  0% {top: 756px}
+  100% {top: 716px}
+}
+.i2 {
+  height: 214px;
+  width: 123px;
+  left: 753px;
+  top: 841px;
+  animation: i2 2s ease-in-out infinite;
+  animation-direction: alternate;
+}
+@keyframes i2 {
+  0% {top: 756px}
+  100% {top: 796px}
+}
+.m2 {
+  height: 214px;
+  width: 123px;
+  left: 187px;
+  top: 44px;
+}
+.n {
+  height: 214px;
+  width: 123px;
+  left: 187px;
+  top: 44px;
+}
+.u {
+  height: 214px;
+  width: 123px;
+  left: 187px;
+  top: 44px;
+}
+.circlerow1 {
+  height: 174px;
+  width: 632px;
+  left: 178px;
+  top: 616px;
+  transform: rotate(341deg);
+}
+.poly1 {
+  width: 175px;
+  height: 175px;
+  left: 1265px;
+  top: 434px;
+  transform: rotate(226deg);
+  animation: poly1 2s ease-in-out infinite;
+  animation-direction: alternate;
+}
+.poly1:hover {
+  animation-play-state: paused;
+}
+@keyframes poly1 {
+  0% {height: 175px; top: 434px}
+  100% {height: 121px; top: 480px}
+}
+.poly2 {
+  width: 99px;
+  height: 99px;
+  left: 1171px;
+  top: 588px;
+  transform: rotate(314deg);
+  animation: poly2 5s linear infinite;
+}
+.poly2:hover {
+  animation-play-state: paused;
+}
+@keyframes poly2 {
+  0% {transform: rotate(314deg)}
+  100% {transform: rotate(674deg)}
+}
+.drop1 {
+  width: 74px;
+  height: 119px;
+  left: 1331px;
+  top: 600px;
+  transform: rotate(127deg);
+  animation: drop1 2s ease-in-out infinite;
+  animation-direction: alternate;
+}
+.drop1:hover {
+  animation-play-state: paused;
+}
+@keyframes drop1 {
+  0% {top: 600px; transform: rotate(127deg)}
+  100% {top: 646px; transform: rotate(148deg)}
+}
+.softtri1 {
+  height: 508px;
+  width: 401px;
+  left: 819px;
+  top: 521px;
+  transform: rotate(320deg);
+}
+.softtri2 {
+  height: 508px;
+  width: 401px;
+  left: 933px;
+  top: 612px;
+  border-radius: 35px;
+  transform: rotate(311deg);
+}
+.circles1 {
+  height: 796px;
+  width: 534px;
+  left: -1px;
+  top: 775px;
+  transform: rotate(287deg);
+}
+.circlef1 {
+  height: 796px;
+  width: 534px;
+  left: 33px;
+  top: 829px;
+  transform: rotate(273deg);
+}
+.cloud2 {
+  height: 123px;
+  width: 178px;
+  left: 739px;
+  top: 729px;
+  transform: rotate(30deg);
+}
+.circlef2 {
+  width: 87px;
+  height: 110px;
+  left: 726px;
+  top: 1085px;
+  transform: rotate(-24deg);
+}
+.poly3 {
+  width: 155px;
+  height: 155px;
+  left: 908px;
+  top: 1064px;
+  transform: rotate(-9deg);
+}
+.star3 {
+  height: 261px;
+  width: 228px;
+  left: 1233px;
+  top: 1095px;
+  transform: rotate(-179deg)
+}
+.rect3 {
+  width: 105px;
+  height: 470px;
+  left: 847px;
+  top: 1236px;
+  transform: rotate(328deg);
+}
+.rect4 {
+  width: 105px;
+  height: 459px;
+  left: 981px;
+  top: 1146px;
+  transform: rotate(40deg);
+}
+.arrow2 {
+  width: 201px;
+  height: 147px;
+  left: 1108px;
+  top: 1411px;
+  transform: rotate(117deg);
+}
+.circlef3 {
+  height: 189px;
+  width: 171px;
+  left: 54px;
+  top: 1510px;
+  transform: rotate(-76deg);
+}
+.circlef4 {
+  height: 95px;
+  width: 118px;
+  left: 266px;
+  top: 1643px;
+  transform: rotate(-76deg);
+}
+.drop2 {
+  width: 130px;
+  height: 210px;
+  left: 100px;
+  top: 1724px;
+  transform: rotate(-108deg);
+}
+.squares2 {
+  width: 271px;
+  height: 271px;
+  left: 441px;
+  top: 1448px;
+  transform: rotate(25deg);
+}
+.n {
+  height: 214px;
+  width: 123px;
+  left: 588px;
+  top: 1484px;
+}
+.poly4 {
+  width: 530px;
+  height: 530px;
+  left: 347px;
+  top: 1636px;
+  transform: rotate(20deg);
+}
+.longdrop2 {
+  width: 188px;
+  height: 313px;
+  left: 409px;
+  top: 1759px;
+  transform: rotate(106deg);
+}
+.circles2 {
+  height: 131px;
+  width: 86px;
+  left: 897px;
+  top: 1934px;
+  transform: rotate(-103deg);
+}
+.softstar1 {
+  width: 178px;
+  height: 175px;
+  left: 950px;
+  top: 1733px;
+  transform: rotate(-22deg);
+}
+.cloud3 {
+  height: 190px;
+  width: 276px;
+  left: 1159px;
+  top: 1665px;
+  transform: rotate(60deg);
+}
+.cloud4 {
+  height: 262px;
+  width: 380px;
+  left: 34px;
+  top: 2036px;
+  transform: rotate(-90deg);
+}
+.tri1 {
+  width: 138px;
+  height: 184px;
+  left: 355px;
+  top: 2284px;
+  transform: rotate(-25deg);
+}
+.tablet1 {
+  width: 154px;
+  height: 470px;
+  left: 654px;
+  top: 2151px;
+  transform: rotate(-43deg);
+}
+.duodrop2 {
+  width: 434px;
+  height: 167px;
+  left: 837px;
+  top: 2058px;
+  transform: rotate(135deg);
+}
+.duodrop3 {
+  width: 434px;
+  height: 167px;
+  left: 930px;
+  top: 2262px;
+  transform: rotate(116deg);
+}
+.softtri3 {
+  height: 292px;
+  width: 279px;
+  left: 1203px;
+  top: 2433px;
+  transform: rotate(171deg);
+}
+.circles3 {
+  width: 277px;
+  height: 277px;
+  left: 1143px;
+  top: 1961px;
+}
+.tri2 {
+  width: 138px;
+  height: 125px;
+  left: 38px;
+  top: 2487px;
+  transform: rotate(11deg);
+}
+.softstar2 {
+  width: 145px;
+  height: 143px;
+  left: 79px;
+  top: 2357px;
+  transform: rotate(-22deg);
+}
+.u {
+  height: 214px;
+  width: 122px;
+  left: 233px;
+  top: 2459px;
+}
+.m2 {
+  height: 214px;
+  width: 153px;
+  left: 371px;
+  top: 2528px;
+}
+.circles4 {
+  width: 201px;
+  height: 201px;
+  left: 563px;
+  top: 2421px;
+}
+.tablet2 {
+  width: 100px;
+  height: 278px;
+  left: 689px;
+  top: 2559px;
+  transform: rotate(-18deg);
+}
+.softtri4 {
+  height: 443px;
+  width: 619px;
+  left: -105px;
+  top: 2721px;
+  transform: rotate(-118deg);
+}
+.arrow3 {
+  width: 201px;
+  height: 147px;
+  left: 441px;
+  top: 2714px;
+  transform: rotate(58deg);
+}
+.tri3 {
+  width: 293px;
+  height: 233px;
+  left: 774px;
+  top: 2873px;
+  transform: rotate(93deg);
+}
+.star4 {
+  height: 426px;
+  width: 373px;
+  left: 895px;
+  top: 2544px;
+  transform: rotate(-89deg);
+}
+.circlerow2 {
+  width: 380px;
+  height: 104px;
+  left: 1102px;
+  top: 2825px;
+  transform: rotate(19deg);
+}
+.hse {
+  width: 317px;
+  height: 232px;
+  left: 1095px;
+  top: 3000px;
+}
