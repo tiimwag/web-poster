@@ -1,7 +1,7 @@
 body {
   background-color: #EDEDED;
-  /* width: 1440px; */
-  overflow-x: hidden;
+  width: 1440px;
+  /* overflow-x: hidden; */
 }
 body img, body p {
   position: absolute;
