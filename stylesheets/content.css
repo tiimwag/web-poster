@@ -33,7 +33,7 @@ p {
   100% {top: 19.79vw; transform: rotate(10deg)}
 }
 .t1:hover {
-  filter: blur(10px);
+  filter: blur(5px);
   color: #FF4400;
   transition: all 1s ease-in-out;
 }
@@ -52,7 +52,7 @@ p {
   100% {top: 76.04vw; transform: rotate(-11deg)}
 }
 .t2:hover {
-  filter: blur(10px);
+  filter: blur(5px);
   color: #FF4400;
   transition: all 1s ease-in-out;
 }
@@ -72,7 +72,7 @@ p {
   100% {top: 117.71vw; transform: rotate(-11deg)}
 }
 .t3:hover {
-  filter: blur(10px);
+  filter: blur(5px);
   color: #FF4400;
   transition: all 1s ease-in-out;
 }
@@ -86,9 +86,9 @@ p {
   z-index: 2;
 }
 @keyframes duodrop1 {
-  0% {width: 15vw; opacity: 80%; filter: blur(30px); transform: rotate(64deg); opacity: 0}
+  0% {width: 15vw; opacity: 80%; filter: blur(20px); transform: rotate(64deg); opacity: 0}
   50% {left: -1.46vw; top: 12.55vw; width: 21.35vw; opacity: 100%; filter: blur(0); transform: rotate(58deg); opacity: 100%}
-  100% {left: -8.44vw; top: 0.52vw; width: 29.58vw; opacity: 90%; filter: blur(34px); transform: rotate(52deg); opacity: 0}
+  100% {left: -8.44vw; top: 0.52vw; width: 29.58vw; opacity: 90%; filter: blur(22px); transform: rotate(52deg); opacity: 0}
 }
 .l {
   width: 8.85vw;
@@ -129,7 +129,7 @@ p {
   left: 27.71vw;
   top: -15.05vw;
   transform: rotate(338deg);
-  filter: blur(30px);
+  filter: blur(20px);
   transition: all 2s ease-out;
 }
 .squaref1 {
@@ -141,9 +141,9 @@ p {
   animation-delay: -5s;
 }
 @keyframes squaref1 {
-  0% {z-index: 1; width: 10.42vw; left: 70.31vw; top: 4.17vw; transform: rotate(297deg); opacity: 0; filter: blur(20px);}
+  0% {z-index: 1; width: 10.42vw; left: 70.31vw; top: 4.17vw; transform: rotate(297deg); opacity: 0; filter: blur(10px);}
   50% {z-index: 0; width: 20.05vw; left: 75.99vw; top: 5.21vw; transform: rotate(315deg); opacity: 100%; filter: blur(0);}
-  100% {z-index: 0; width: 26.04vw; left: 83.33vw; top: 0.52vw; transform: rotate(356deg); opacity: 0; filter: blur(20px);}
+  100% {z-index: 0; width: 26.04vw; left: 83.33vw; top: 0.52vw; transform: rotate(356deg); opacity: 0; filter: blur(10px);}
 }
 .star1 {
   width: 20vw;
@@ -154,9 +154,9 @@ p {
   z-index: 2;
 }
 @keyframes star1 {
-  0% {width: 15.10vw; left: -1.04vw; top: 20vw; transform: rotate(340deg); filter: blur(15px); opacity: 0}
+  0% {width: 15.10vw; left: -1.04vw; top: 20vw; transform: rotate(340deg); filter: blur(6px); opacity: 0}
   50% {width: 20vw; left: 0; top: 22.92vw; transform: rotate(334deg); filter: blur(0); opacity: 100%}
-  100%{width: 27.45vw; left: -12.50vw; top: 25vw; transform: rotate(326deg); filter: blur(35px); opacity: 0}
+  100%{width: 27.45vw; left: -12.50vw; top: 25vw; transform: rotate(326deg); filter: blur(22px); opacity: 0}
 }
 .rect1 {
   width: 3.23vw;
@@ -169,7 +169,7 @@ p {
 }
 .rect1:hover {
   transform: rotate(-2000deg);
-  filter: blur(20px);
+  filter: blur(10px);
   opacity: 0;
   transition: all 16s ease-in-out;
 }
@@ -184,7 +184,7 @@ p {
 }
 .rect2:hover {
   transform: rotate(2000deg);
-  filter: blur(20px);
+  filter: blur(10px);
   opacity: 0;
   transition: all 16s ease-in-out;
 }
@@ -221,9 +221,9 @@ p {
   animation: star2 9s ease-in-out infinite;
 }
 @keyframes star2 {
-  0% {width: 6.46vw; left: 57.03vw; top: 12.40vw; transform: rotate(35deg); filter: blur(20px); opacity: 0}
+  0% {width: 6.46vw; left: 57.03vw; top: 12.40vw; transform: rotate(35deg); filter: blur(10px); opacity: 0}
   50% {width: 10.63vw; left: 57.03vw; top: 14.69vw; transform: rotate(43deg); filter: blur(0); opacity: 100%}
-  100% {width: 18.44vw; left: 55.21vw; top: 13.02vw; transform: rotate(55deg); filter: blur(20px); opacity: 0}
+  100% {width: 18.44vw; left: 55.21vw; top: 13.02vw; transform: rotate(55deg); filter: blur(10px); opacity: 0}
 }
 .longdrop1 {
   width: 16.61vw;
@@ -233,9 +233,9 @@ p {
   animation: longdrop1 10s ease-in-out infinite;
 }
 @keyframes longdrop1 {
-  0% {z-index: 0; width: 13.54vw; left: 61.98vw; top: 11.98vw; transform: rotate(9deg); opacity: 0; filter: blur(30px)}
+  0% {z-index: 0; width: 13.54vw; left: 61.98vw; top: 11.98vw; transform: rotate(9deg); opacity: 0; filter: blur(20px)}
   50% {z-index: 1; width: 16.61vw; left: 65.42vw; top: 15.05vw; transform: rotate(33deg); opacity: 100%; filter: blur(0)}
-  100% {z-index: 1; width: 22.40vw; left: 71.88vw; top: 0; transform: rotate(47deg); opacity: 0; filter: blur(30px)}
+  100% {z-index: 1; width: 22.40vw; left: 71.88vw; top: 0; transform: rotate(47deg); opacity: 0; filter: blur(20px)}
 }
 .m1 {
   width: 11.09vw;
@@ -271,7 +271,7 @@ p {
   width: 44.06vw;
   top: 40.36vw;
   transform: rotate(348deg);
-  filter: blur(20px);
+  filter: blur(10px);
   transition: all 1.5s ease-out;
 }
 .poly1 {
@@ -381,7 +381,7 @@ p {
 }
 @keyframes cloud2 {
   0% {width: 13.49vw; transform: rotate(30deg); filter: blur(0)}
-  100% {width: 10.36vw; transform: rotate(38deg); filter: blur(20px)}
+  100% {width: 10.36vw; transform: rotate(38deg); filter: blur(10px)}
 }
 .circlef2 {
   width: 7.19vw;
@@ -405,7 +405,7 @@ p {
 }
 @keyframes poly3 {
   0% {transform: rotate(351deg); filter: blur(0)}
-  50% {transform: rotate(533deg); filter: blur(30px); opacity: 50%}
+  50% {transform: rotate(533deg); filter: blur(20px); opacity: 50%}
   100% {transform: rotate(710deg); filter: blur(0)}
 }
 .poly3:hover {
@@ -422,7 +422,7 @@ p {
   width: 19.06vw;
   left: 85.52vw;
   top: 74.32vw;
-  filter: blur(20px);
+  filter: blur(10px);
   transform: rotate(deg);
   transition: all 2s ease-in-out;
 }
@@ -436,7 +436,7 @@ p {
 }
 @keyframes rect3 {
   0% {left: 61.46vw; top: 79.53vw; transform: rotate(328deg)}
-  100% {left: 65.31vw; top: 83.91vw; transform: rotate(306deg); filter: blur(10px)}
+  100% {left: 65.31vw; top: 83.91vw; transform: rotate(306deg); filter: blur(5px)}
 }
 .rect4 {
   width: 7.92vw;
@@ -471,7 +471,7 @@ p {
   animation-direction: alternate;
 }
 @keyframes circlef3 {
-  0% {left: 1.51vw; transform: rotate(223deg); filter: blur(10px)}
+  0% {left: 1.51vw; transform: rotate(223deg); filter: blur(5px)}
   100% {left: 3.75vw; transform: rotate(284deg)}
 }
 .circlef4 {
@@ -483,7 +483,7 @@ p {
   animation-direction: alternate;
 }
 @keyframes circlef4 {
-  0% {left: 15.83vw; transform: rotate(284deg); filter: blur(10px)}
+  0% {left: 15.83vw; transform: rotate(284deg); filter: blur(5px)}
   100% {left: 14.11vw; transform: rotate(218deg)}
 }
 .drop2 {
@@ -494,9 +494,9 @@ p {
   animation: drop2 4s linear infinite;
 }
 @keyframes drop2 {
-  0% {width: 3.33vw; left: 13.44vw; top: 111.51vw; transform: rotate(68deg); opacity: 0; filter: blur(10px)}
+  0% {width: 3.33vw; left: 13.44vw; top: 111.51vw; transform: rotate(68deg); opacity: 0; filter: blur(5px)}
   50% {width: 6.04vw; left: 2.81vw; top: 107.71vw; transform: rotate(234deg); opacity: 100%; filter: blur(0)}
-  100% {width: 10.94vw; left: -7.81vw; top: 103.96vw; transform: rotate(400deg); opacity: 0; filter: blur(20px)}
+  100% {width: 10.94vw; left: -7.81vw; top: 103.96vw; transform: rotate(400deg); opacity: 0; filter: blur(10px)}
 }
 .squares2 {
   width: 16.82vw;
@@ -565,7 +565,7 @@ p {
   left: 53.80vw;
   top: 116.67vw;
   transform: rotate(220deg);
-  filter: blur(20px);
+  filter: blur(10px);
   transition: all 3s ease-in-out;
 }
 .softstar1 {
@@ -580,7 +580,7 @@ p {
   left: 73.33vw;
   top: 114.48vw;
   transform: rotate(46deg);
-  filter: blur(10px);
+  filter: blur(5px);
   transition: all 3s ease-in-out;
 }
 .cloud3 {
@@ -588,7 +588,7 @@ p {
   left: 89.64vw;
   top: 120.05vw;
   transform: rotate(60deg);
-  filter: blur(10px);
+  filter: blur(5px);
   transition: all 3s ease-in-out;
 }
 .softstar1:hover ~ .cloud3 {
@@ -608,9 +608,9 @@ p {
   z-index: 1;
 }
 @keyframes cloud4 {
-  0% {width: 17.66vw; left: 3.85vw; top: 132.81vw; transform: rotate(261deg); filter: blur(20px); opacity: 0}
+  0% {width: 17.66vw; left: 3.85vw; top: 132.81vw; transform: rotate(261deg); filter: blur(10px); opacity: 0}
   50% {width: 23.85vw; left: 0.52vw; top: 126.04vw; transform: rotate(270deg); filter: blur(0); opacity: 100%}
-  100% {width: 33.44vw; left: -3.07vw; top: 119.53vw; transform: rotate(298deg); filter: blur(20px); opacity: 0}
+  100% {width: 33.44vw; left: -3.07vw; top: 119.53vw; transform: rotate(298deg); filter: blur(10px); opacity: 0}
 }
 .tri1 {
   width: 9.27vw;
@@ -635,7 +635,7 @@ p {
 }
 @keyframes tablet1 {
   0% {width: 10.10vw; transform: rotate(317deg); filter: blur(0)}
-  100% {width: 5.63vw; transform: rotate(347deg); filter: blur(10px)}
+  100% {width: 5.63vw; transform: rotate(347deg); filter: blur(5px)}
 }
 .duodrop2 {
   width: 30.10vw;
@@ -654,7 +654,7 @@ p {
 .circles3:hover {
   width: 21.35vw;
   left: 69.27vw;
-  filter: blur(2px);
+  filter: blur(1px);
   transition: all 2s ease-in-out;
 }
 .duodrop3 {
@@ -670,7 +670,7 @@ p {
   left: 56.51vw;
   top: 131.04vw;
   transform: rotate(178deg);
-  filter: blur(10px);
+  filter: blur(5px);
   transition: all 2s ease-in-out;
 }
 .circles3:hover ~ .duodrop3 {
@@ -678,7 +678,7 @@ p {
   left: 75.52vw;
   top: 139.58vw;
   transform: rotate(158deg);
-  filter: blur(20px);
+  filter: blur(10px);
   transition: all 2s ease-in-out;
 }
 .softtri3 {
@@ -733,7 +733,7 @@ p {
 }
 @keyframes softstar2 {
   0% {top: 0px; transform: rotate(-22deg)}
-  100% {width: 13.54vw; top: 5.73vw; transform: rotate(-90deg); filter: blur(10px)}
+  100% {width: 13.54vw; top: 5.73vw; transform: rotate(-90deg); filter: blur(5px)}
 }
 .u {
   width: 8.85vw;
@@ -780,7 +780,7 @@ p {
   animation-direction: alternate;
 }
 @keyframes tablet2 {
-  0% {width: 7.08vw; left: 49.53vw; top: 155.94vw; transform: rotate(342deg); filter: blur(10px)}
+  0% {width: 7.08vw; left: 49.53vw; top: 155.94vw; transform: rotate(342deg); filter: blur(5px)}
   100% {width: 8.65vw; left: 49.64vw; top: 143.49vw; transform: rotate(368deg); filter: blur(0)}
 }
 .divsofttri4 {
@@ -797,9 +797,9 @@ p {
   animation: softtri4 10s ease-in-out infinite;
 }
 @keyframes softtri4 {
-  0% {width: 34.06vw; transform: rotate(173deg); filter: blur(30px); opacity: 0}
+  0% {width: 34.06vw; transform: rotate(173deg); filter: blur(20px); opacity: 0}
   50% {width: 41.67vw; transform: rotate(200deg); filter: blur(0px); opacity: 100%}
-  100% {width: 48.49vw; transform: rotate(229deg); filter: blur(40px); opacity: 0}
+  100% {width: 48.49vw; transform: rotate(229deg); filter: blur(30px); opacity: 0}
 }
 .arrow3 {
   width: 13.54vw;
@@ -825,7 +825,7 @@ p {
   left: 59.90vw;
   top: 160vw;
   transform: rotate(110deg);
-  filter: blur(30px);
+  filter: blur(20px);
   opacity: 70%;
   transition: all 3s ease-in-out;
 }
