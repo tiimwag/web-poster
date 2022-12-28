@@ -1,292 +1,302 @@
 body {
   background-color: #EDEDED;
-  width: 1440px;
-  /* overflow-x: hidden; */
+  width: 1920px;
+  overflow-x: hidden;
 }
-body img, body p {
+body img, body p, body div{
   position: absolute;
 }
 p {
   font-family: "PPNeueMontreal";
   font-style: normal;
   font-weight: 500;
-  font-size: 36px;
-  line-height: 43px;
+  font-size: 2.45vw;
+  line-height: 2.24vw;
+}
+.final {
+  font-size: 1.77vw;
+  left: 7.77vw;
+  top: 182.81vw;
 }
 .t1 {
-  width: 425px;
-  height: 86px;
-  left: 489px;
-  top: 191px;
+  width: 28.91vw;
+  left: 34.58vw;
+  top: 34.58vw;
   transform: rotate(-10deg);
   z-index: 1;
+  animation: t1 3s ease-in-out infinite;
+  animation-direction: alternate;
+  transition: all 1s ease-in-out;
+}
+@keyframes t1 {
+  0% {top: 17.50vw; transform: rotate(-10deg)}
+  100% {top: 19.79vw; transform: rotate(10deg)}
+}
+.t1:hover {
+  filter: blur(10px);
+  color: #FF4400;
+  transition: all 1s ease-in-out;
 }
 .t2 {
-  width: 425px;
-  height: 86px;
-  left: 720px;
-  top: 1126px;
+  width: 28.91vw;
+  left: 45.52vw;
+  top: 74.11vw;
   transform: rotate(9deg);
   z-index: 1;
+  animation: t2 3s ease-in-out infinite;
+  animation-direction: alternate;
+  transition: all 1s ease-in-out;
+}
+@keyframes t2 {
+  0% {top: 74.11vw; transform: rotate(9deg)}
+  100% {top: 76.04vw; transform: rotate(-11deg)}
+}
+.t2:hover {
+  filter: blur(10px);
+  color: #FF4400;
+  transition: all 1s ease-in-out;
 }
 .t3 {
-  width: 491px;
-  height: 86px;
-  left: 512px;
-  top: 1878px;
+  width: 28.91vw;
+  left: 25.73vw;
+  top: 115.89vw;
   transform: rotate(8deg);
   z-index: 1;
+  animation: t3 3s ease-in-out infinite;
+  animation-direction: alternate;
+  animation-delay: -3s;
+  transition: all 1s ease-in-out;
+}
+@keyframes t3 {
+  0% {top: 115.89vw; transform: rotate(9deg)}
+  100% {top: 117.71vw; transform: rotate(-11deg)}
+}
+.t3:hover {
+  filter: blur(10px);
+  color: #FF4400;
+  transition: all 1s ease-in-out;
 }
 .duodrop1 {
-  width: 288px;
-  height: 111px;
-  left: -53px;
-  top: 162px;
+  width: 21.35vw;
+  left: -1.46vw;
+  top: 12.55vw;
   transform: rotate(58deg);
   animation: duodrop1 8s ease-in-out infinite;
   animation-delay: -3s;
   z-index: 2;
 }
 @keyframes duodrop1 {
-  0% {width: 288px; height: 80px; opacity: 80%; filter: blur(30px); transform: rotate(64deg); opacity: 0}
-  50% {left: -53px; top: 162px; width: 288px; height: 111px; opacity: 100%; filter: blur(0); transform: rotate(58deg); opacity: 100%}
-  100% {left: -162px; top: -17px; width: 568px; height: 266px; opacity: 90%; filter: blur(34px); transform: rotate(52deg); opacity: 0}
+  0% {width: 15vw; opacity: 80%; filter: blur(30px); transform: rotate(64deg); opacity: 0}
+  50% {left: -1.46vw; top: 12.55vw; width: 21.35vw; opacity: 100%; filter: blur(0); transform: rotate(58deg); opacity: 100%}
+  100% {left: -8.44vw; top: 0.52vw; width: 29.58vw; opacity: 90%; filter: blur(34px); transform: rotate(52deg); opacity: 0}
 }
 .l {
-  height: 214px;
-  width: 123px;
-  left: 187px;
-  top: 74px;
+  width: 8.85vw;
+  left: 14.06vw;
+  top: 5.83vw;
   animation: l 2s ease-in-out infinite;
   animation-direction: alternate;
+  animation-delay: -1.5s;
   z-index: 1;
 }
 @keyframes l {
-  0% {top: 74px}
-  100% {top: 114px}
+  0% {top: 5.83vw}
+  100% {top: 8.44vw}
 }
 .i1 {
-  height: 215px;
-  width: 122px;
-  left: 330px;
-  top: 139px;
+  width: 8.85vw;
+  left: 24.06vw;
+  top: 10.68vw;
   animation: i1 2s ease-in-out infinite;
   animation-direction: alternate;
+  animation-delay: -1.5s;
   z-index: 1;
 }
 @keyframes i1 {
-  0% {top: 139px}
-  100% {top: 89px}
+  0% {top: 10.68vw}
+  100% {top: 8.07vw}
 }
-.i3 {
-  height: 215px;
-  width: 122px;
-  left: 730px;
-  top: 1569px;
-}
-
 .cloud1 {
-  height: 356px;
-  width: 577px;
-  left: 546px;
-  top: -208px;
+  width: 39.74vw;
+  left: 31.82vw;
+  top: -12.55vw;
   transform: rotate(333deg);
   transition: all 2s ease-out;
   z-index: 2;
 }
 .cloud1:hover {
-  height: 510px;
-  width: 703px;
-  left: 532px;
-  top: -289px;
+  width: 46.88vw;
+  left: 27.71vw;
+  top: -15.05vw;
   transform: rotate(338deg);
   filter: blur(30px);
   transition: all 2s ease-out;
 }
 .squaref1 {
-  height: 267px;
-  width: 267px;
-  left: 1147px;
-  top: 135px;
+  width: 20.05vw;
+  left: 75.99vw;
+  top: 5.21vw;
   transform: rotate(297deg);
   animation: squaref1 10s ease-in-out infinite;
   animation-delay: -5s;
 }
 @keyframes squaref1 {
-  0% {z-index: 1; height: 168px; width: 250px; left: 1147px; top: 135px; transform: rotate(297deg); opacity: 0; filter: blur(20px);}
-  50% {z-index: 0; height: 267px; width: 267px; left: 1147px; top: 135px; transform: rotate(315deg); opacity: 100%; filter: blur(0);}
-  100% {z-index: 0; height: 449px; width: 404px; left: 1184px; top: -30px; transform: rotate(356deg); opacity: 0; filter: blur(20px);}
+  0% {z-index: 1; width: 10.42vw; left: 70.31vw; top: 4.17vw; transform: rotate(297deg); opacity: 0; filter: blur(20px);}
+  50% {z-index: 0; width: 20.05vw; left: 75.99vw; top: 5.21vw; transform: rotate(315deg); opacity: 100%; filter: blur(0);}
+  100% {z-index: 0; width: 26.04vw; left: 83.33vw; top: 0.52vw; transform: rotate(356deg); opacity: 0; filter: blur(20px);}
 }
 .star1 {
-  height: 466px;
-  width: 345px;
-  left: -51px;
-  top: 304px;
+  width: 20vw;
+  left: 0;
+  top: 22.92vw;
   transform: rotate(-17deg);
   animation: star1 10s ease-in-out infinite;
-  z-index: 1;
+  z-index: 2;
 }
 @keyframes star1 {
-  0% {height: 466px; width: 345px; left: -51px; top: 304px; transform: rotate(340deg); filter: blur(15px); opacity: 0}
-  50% {height: 593px; width: 482px; left: -144px; top: 271px; transform: rotate(334deg); filter: blur(0); opacity: 100%}
-  100%{height: 713px; width: 527px; left: -240px; top: 300px; transform: rotate(326deg); filter: blur(35px); opacity: 0}
+  0% {width: 15.10vw; left: -1.04vw; top: 20vw; transform: rotate(340deg); filter: blur(15px); opacity: 0}
+  50% {width: 20vw; left: 0; top: 22.92vw; transform: rotate(334deg); filter: blur(0); opacity: 100%}
+  100%{width: 27.45vw; left: -12.50vw; top: 25vw; transform: rotate(326deg); filter: blur(35px); opacity: 0}
 }
 .rect1 {
-  width: 45px;
-  height: 166px;
-  left: 313px;
-  top: 416px;
+  width: 3.23vw;
+  left: 22.14vw;
+  top: 28.96vw;
   transform: rotate(0);
   filter: blur(0);
   opacity: 100%;
-  transition: all 20s linear;
+  transition: all 16s ease-in-out;
 }
 .rect1:hover {
   transform: rotate(-2000deg);
   filter: blur(20px);
   opacity: 0;
-  transition: all 20s linear;
+  transition: all 16s ease-in-out;
 }
 .rect2 {
-  width: 45px;
-  height: 166px;
-  left: 382px;
-  top: 454px;
+  width: 3.23vw;
+  left: 26.67vw;
+  top: 31.72vw;
   transform: rotate(115deg);
   filter: blur(0);
   opacity: 100%;
-  transition: all 20s linear;
+  transition: all 16s ease-in-out;
 }
 .rect2:hover {
   transform: rotate(2000deg);
   filter: blur(20px);
   opacity: 0;
-  transition: all 20s linear;
+  transition: all 16s ease-in-out;
 }
 .arrow1 {
-  width: 201px;
-  height: 147px;
-  left: 475px;
-  top: 332px;
+  width: 13.54vw;;
+  left: 31.04vw;
+  top: 24.22vw;
   transform: rotate(62deg);
   animation: arrow1 1s ease-in-out infinite;
   animation-direction: alternate;
 }
 @keyframes arrow1 {
-  0% {left: 475px; top: 332px}
-  100% {left: 498px; top: 360px;}
+  0% {left: 31.04vw; top: 24.22vw}
+  100% {left: 33.65vw; top: 27.08vw}
 }
 .squares1 {
-  width: 187px;
-  height: 187px;
-  left: 687px;
-  top: 292px;
+  width: 12.40vw;
+  left: 43.28vw;
+  top: 23.02vw;
   transform: rotate(330deg);
   animation: squares1 2s ease-in-out infinite;
   animation-direction: alternate;
+  animation-delay: -1.3s;
 }
 @keyframes squares1 {
-  0% {left: 687px; transform: rotate(330deg)}
-  100% {left: 739px; transform: rotate(390deg)}
+  0% {left: 43.28vw; transform: rotate(330deg)}
+  100% {left: 47.92vw; transform: rotate(390deg)}
 }
 .star2 {
-  height: 147px;
-  width: 124px;
-  left: 711px;
-  top: 226px;
+  width: 10.63vw;
+  left: 57.03vw;
+  top: 14.69vw;
   transform: rotate(35deg);
   animation: star2 9s ease-in-out infinite;
 }
 @keyframes star2 {
-  0% {height: 147px; width: 124px; left: 711px; top: 238px; transform: rotate(35deg); filter: blur(20px); opacity: 0}
-  50% {height: 239px; width: 225px; left: 694px; top: 226px; transform: rotate(43deg); filter: blur(0); opacity: 100%}
-  100% {height: 462px; width: 374px; left: 630px; top: 149px; transform: rotate(55deg); filter: blur(20px); opacity: 0}
+  0% {width: 6.46vw; left: 57.03vw; top: 12.40vw; transform: rotate(35deg); filter: blur(20px); opacity: 0}
+  50% {width: 10.63vw; left: 57.03vw; top: 14.69vw; transform: rotate(43deg); filter: blur(0); opacity: 100%}
+  100% {width: 18.44vw; left: 55.21vw; top: 13.02vw; transform: rotate(55deg); filter: blur(20px); opacity: 0}
 }
 .longdrop1 {
-  width: 226px;
-  height: 375px;
-  left: 988px;
-  top: 164px;
+  width: 16.61vw;
+  left: 65.42vw;
+  top: 289px;
   transform: rotate(33deg);
   animation: longdrop1 10s ease-in-out infinite;
 }
 @keyframes longdrop1 {
-  0% {z-index: 0; width: 140px; height: 375px; left: 988px; top: 230px; transform: rotate(9deg); opacity: 0; filter: blur(30px)}
-  50% {z-index: 1; width: 226px; height: 375px; left: 988px; top: 164px; transform: rotate(33deg); opacity: 100%; filter: blur(0)}
-  100% {z-index: 1; width: 620px; height: 909px; left: 1026px; top: -240px; transform: rotate(47deg); opacity: 0; filter: blur(30px)}
+  0% {z-index: 0; width: 13.54vw; left: 61.98vw; top: 11.98vw; transform: rotate(9deg); opacity: 0; filter: blur(30px)}
+  50% {z-index: 1; width: 16.61vw; left: 65.42vw; top: 15.05vw; transform: rotate(33deg); opacity: 100%; filter: blur(0)}
+  100% {z-index: 1; width: 22.40vw; left: 71.88vw; top: 0; transform: rotate(47deg); opacity: 0; filter: blur(30px)}
 }
 .m1 {
-  height: 294px;
-  width: 153px;
-  left: 583px;
-  top: 756px;
+  width: 11.09vw;
+  left: 43.80vw;
+  top: 52.55vw;
   animation: m1 2s ease-in-out infinite;
   animation-direction: alternate;
 }
 @keyframes m1 {
-  0% {top: 756px}
-  100% {top: 716px}
+  0% {top: 52.55vw}
+  100% {top: 55.16vw}
 }
 .i2 {
-  height: 214px;
-  width: 123px;
-  left: 753px;
-  top: 841px;
+  width: 8.85vw;
+  left: 56.35vw;
+  top: 55.57vw;
   animation: i2 2s ease-in-out infinite;
   animation-direction: alternate;
 }
 @keyframes i2 {
-  0% {top: 756px}
-  100% {top: 796px}
-}
-.m2 {
-  height: 214px;
-  width: 123px;
-  left: 187px;
-  top: 44px;
-}
-.n {
-  height: 214px;
-  width: 123px;
-  left: 187px;
-  top: 44px;
-}
-.u {
-  height: 214px;
-  width: 123px;
-  left: 187px;
-  top: 44px;
+  0% {top: 55.57vw}
+  100% {top: 52.97vw}
 }
 .circlerow1 {
-  height: 174px;
-  width: 632px;
-  left: 178px;
-  top: 616px;
+  width: 39.58vw;
+  left: 18.65vw;
+  top: 41.88vw;
   transform: rotate(341deg);
+  filter: blur(0);
+  transition: all 1.5s ease-out;
+}
+.circlerow1:hover {
+  width: 44.06vw;
+  top: 40.36vw;
+  transform: rotate(348deg);
+  filter: blur(20px);
+  transition: all 1.5s ease-out;
 }
 .poly1 {
-  width: 175px;
-  height: 175px;
-  left: 1265px;
-  top: 434px;
+  width: 11.56vw;
+  left: 84.84vw;
+  top: 30.21vw;
   transform: rotate(226deg);
   animation: poly1 2s ease-in-out infinite;
   animation-direction: alternate;
+  z-index: 1;
 }
 .poly1:hover {
   animation-play-state: paused;
 }
 @keyframes poly1 {
-  0% {height: 175px; top: 434px}
-  100% {height: 121px; top: 480px}
+  0% {width: 11.56vw; top: 30.21vw}
+  100% {width: 8.33vw; top: 31.77vw}
 }
 .poly2 {
-  width: 99px;
-  height: 99px;
-  left: 1171px;
-  top: 588px;
+  width: 7.34vw;
+  left: 73.70vw;
+  top: 33.49vw;
   transform: rotate(314deg);
   animation: poly2 5s linear infinite;
+  z-index: 1;
 }
 .poly2:hover {
   animation-play-state: paused;
@@ -296,293 +306,1408 @@ p {
   100% {transform: rotate(674deg)}
 }
 .drop1 {
-  width: 74px;
-  height: 119px;
-  left: 1331px;
-  top: 600px;
-  transform: rotate(127deg);
+  width: 5.73vw;
+  left: 82.66vw;
+  top: 42.86vw;
+  transform: rotate(150deg);
   animation: drop1 2s ease-in-out infinite;
   animation-direction: alternate;
+  z-index: 1;
 }
 .drop1:hover {
   animation-play-state: paused;
 }
 @keyframes drop1 {
-  0% {top: 600px; transform: rotate(127deg)}
-  100% {top: 646px; transform: rotate(148deg)}
+  0% {left: 82.66vw; top: 42.86vw; transform: rotate(150deg)}
+  100% {left: 87.76vw; top: 44.06vw; transform: rotate(140deg)}
 }
 .softtri1 {
-  height: 508px;
-  width: 401px;
-  left: 819px;
-  top: 521px;
+  width: 24.32vw;
+  left: 63.49vw;
+  top: 43.91vw;
   transform: rotate(320deg);
+  animation: softtri1 2s ease-in-out infinite;
+  animation-direction: alternate;
+}
+@keyframes softtri1 {
+  0% {left: 63.49vw; top: 43.91vw; transform: rotate(320deg)}
+  100% {left: 69.69vw; top: 46.88vw; transform: rotate(303deg)}
 }
 .softtri2 {
-  height: 508px;
-  width: 401px;
-  left: 933px;
-  top: 612px;
-  border-radius: 35px;
+  width: 24.32vw;
+  left: 72.19vw;
+  top: 46.41vw;
   transform: rotate(311deg);
+  animation: softtri2 2s ease-in-out infinite;
+  animation-direction: alternate;
+}
+@keyframes softtri2 {
+  0% {left: 72.19vw; top: 46.41vw; transform: rotate(311deg)}
+  100% {left: 74.48vw; top: 48.65vw; transform: rotate(296deg)}
 }
 .circles1 {
-  height: 796px;
-  width: 534px;
-  left: -1px;
-  top: 775px;
+  width: 36.20vw;
+  left: -3.07vw;
+  top: 42.29vw;
   transform: rotate(287deg);
+  z-index: 1;
+  animation: circles1 2s ease-in-out infinite;
+  animation-direction: alternate;
+}
+@keyframes circles1 {
+  0% {left: -3.07vw; top: 42.29vw; transform: rotate(287deg)}
+  100% {left: -2.24vw; top: 39.84vw; transform: rotate(278deg)}
 }
 .circlef1 {
-  height: 796px;
-  width: 534px;
-  left: 33px;
-  top: 829px;
+  width: 36.20vw;
+  left: -2.40vw;
+  top: 46.88vw;
   transform: rotate(273deg);
+  animation: circlef1 2s ease-in-out infinite;
+  animation-direction: alternate;
+}
+@keyframes circlef1 {
+  0% {top: 46.88vw; transform: rotate(287deg)}
+  100% {top: 48.85vw; transform: rotate(299deg)}
 }
 .cloud2 {
-  height: 123px;
-  width: 178px;
-  left: 739px;
-  top: 729px;
+  width: 13.49vw;
+  left: 54.58vw;
+  top: 50.47vw;
   transform: rotate(30deg);
+  animation: cloud2 2s ease-in-out infinite;
+  animation-direction: alternate;
+  animation-delay: -1s;
+}
+@keyframes cloud2 {
+  0% {width: 13.49vw; transform: rotate(30deg); filter: blur(0)}
+  100% {width: 10.36vw; transform: rotate(38deg); filter: blur(20px)}
 }
 .circlef2 {
-  width: 87px;
-  height: 110px;
-  left: 726px;
-  top: 1085px;
-  transform: rotate(-24deg);
+  width: 7.19vw;
+  left: 47.50vw;
+  top: 71.09vw;
+  transform: rotate(336deg);
+  animation: circlef2 3s ease-in-out infinite;
+  animation-direction: alternate;
+}
+@keyframes circlef2 {
+  0% {left: 47.50vw; transform: rotate(336deg)}
+  100% {left: 52.66vw; transform: rotate(265deg)}
 }
 .poly3 {
-  width: 155px;
-  height: 155px;
-  left: 908px;
-  top: 1064px;
-  transform: rotate(-9deg);
+  width: 10.42vw;
+  left: 71.20vw;
+  top: 77.19vw;
+  transform: rotate(351deg);
+  filter: blur(0);
+  animation: poly3 4s linear infinite;
+}
+@keyframes poly3 {
+  0% {transform: rotate(351deg); filter: blur(0)}
+  50% {transform: rotate(533deg); filter: blur(30px); opacity: 50%}
+  100% {transform: rotate(710deg); filter: blur(0)}
+}
+.poly3:hover {
+  animation-play-state: paused;
 }
 .star3 {
-  height: 261px;
-  width: 228px;
-  left: 1233px;
-  top: 1095px;
-  transform: rotate(-179deg)
+  width: 15.63vw;
+  left: 89.38vw;
+  top: 75.31vw;
+  transform: rotate(181deg);
+  transition: all 2s ease-in-out;
+}
+.star3:hover {
+  width: 19.06vw;
+  left: 85.52vw;
+  top: 74.32vw;
+  filter: blur(20px);
+  transform: rotate(deg);
+  transition: all 2s ease-in-out;
 }
 .rect3 {
-  width: 105px;
-  height: 470px;
-  left: 847px;
-  top: 1236px;
+  width: 7.92vw;
+  left: 61.46vw;
+  top: 79.53vw;
   transform: rotate(328deg);
+  animation: rect3 4s ease-in-out infinite;
+  animation-direction: alternate;
+}
+@keyframes rect3 {
+  0% {left: 61.46vw; top: 79.53vw; transform: rotate(328deg)}
+  100% {left: 65.31vw; top: 83.91vw; transform: rotate(306deg); filter: blur(10px)}
 }
 .rect4 {
-  width: 105px;
-  height: 459px;
-  left: 981px;
-  top: 1146px;
+  width: 7.92vw;
+  left: 71.77vw;
+  top: 89.74vw;
   transform: rotate(40deg);
+  animation: rect4 4s ease-in-out infinite;
+  animation-direction: alternate;
+}
+@keyframes rect4 {
+  0% {left: 71.77vw; top: 89.74vw; transform: rotate(40deg)}
+  100% {left: 68.59vw; top: 83.54vw; transform: rotate(63deg)}
 }
 .arrow2 {
-  width: 201px;
-  height: 147px;
-  left: 1108px;
-  top: 1411px;
+  width: 13.54vw;
+  left: 86.72vw;
+  top: 97.66vw;
   transform: rotate(117deg);
+  animation: arrow2 1s ease-in-out infinite;
+  animation-direction: alternate;
+}
+@keyframes arrow2 {
+  0% {left: 86.72vw; top: 97.66vw}
+  100% {left: 84.38vw; top: 101.04vw}
 }
 .circlef3 {
-  height: 189px;
-  width: 171px;
-  left: 54px;
-  top: 1510px;
-  transform: rotate(-76deg);
+  width: 10.99vw;
+  left: 2.81vw;
+  top: 94.32vw;
+  transform: rotate(223deg);
+  animation: circlef3 1.2s ease-in infinite;
+  animation-direction: alternate;
+}
+@keyframes circlef3 {
+  0% {left: 1.51vw; transform: rotate(223deg); filter: blur(10px)}
+  100% {left: 3.75vw; transform: rotate(284deg)}
 }
 .circlef4 {
-  height: 95px;
-  width: 118px;
-  left: 266px;
-  top: 1643px;
-  transform: rotate(-76deg);
+  width: 7.71vw;
+  left: 15.83vw;
+  top: 101.82vw;
+  transform: rotate(284deg);
+  animation: circlef4 1.2s ease-in infinite;
+  animation-direction: alternate;
+}
+@keyframes circlef4 {
+  0% {left: 15.83vw; transform: rotate(284deg); filter: blur(10px)}
+  100% {left: 14.11vw; transform: rotate(218deg)}
 }
 .drop2 {
-  width: 130px;
-  height: 210px;
-  left: 100px;
-  top: 1724px;
+  width: 6.04vw;
+  left: 2.81vw;
+  top: 107.71vw;
   transform: rotate(-108deg);
+  animation: drop2 4s linear infinite;
+}
+@keyframes drop2 {
+  0% {width: 3.33vw; left: 13.44vw; top: 111.51vw; transform: rotate(68deg); opacity: 0; filter: blur(10px)}
+  50% {width: 6.04vw; left: 2.81vw; top: 107.71vw; transform: rotate(234deg); opacity: 100%; filter: blur(0)}
+  100% {width: 10.94vw; left: -7.81vw; top: 103.96vw; transform: rotate(400deg); opacity: 0; filter: blur(20px)}
 }
 .squares2 {
-  width: 271px;
-  height: 271px;
-  left: 441px;
-  top: 1448px;
+  width: 16.82vw;
+  left: 27.24vw;
+  top: 87.24vw;
   transform: rotate(25deg);
+  animation: squares2 2s ease-in-out infinite;
+  animation-direction: alternate;
+  animation-delay: -1s;
+}
+@keyframes squares2 {
+  0% {top: 87.24vw; transform: rotate(25deg)}
+  100% {top: 95.05vw; transform: rotate(38deg)}
 }
 .n {
-  height: 214px;
-  width: 123px;
-  left: 588px;
-  top: 1484px;
+  width: 8.85vw;
+  left: 646px;
+  top: 92.29vw;
+  animation: n 2s ease-in-out infinite;
+  animation-direction: alternate;
+  animation-delay: -1s;
+}
+@keyframes n {
+  0% {top: 92.29vw}
+  100% {top: 94.90vw}
+}
+.i3 {
+  width: 8.85vw;
+  left: 43.54vw;
+  top: 95.73vw;
+  animation: i3 2s ease-in-out infinite;
+  animation-direction: alternate;
+  animation-delay: -1s;
+}
+@keyframes i3 {
+  0% {top: 95.73vw}
+  100% {top: 93.13vw}
 }
 .poly4 {
-  width: 530px;
-  height: 530px;
-  left: 347px;
-  top: 1636px;
+  width: 29.74vw;
+  left: 25.36vw;
+  top: 96.04vw;
   transform: rotate(20deg);
 }
 .longdrop2 {
-  width: 188px;
-  height: 313px;
-  left: 409px;
-  top: 1759px;
+  width: 11.88vw;
+  left: 26.93vw;
+  top: 101.04vw;
   transform: rotate(106deg);
+  animation: longdrop2 10s ease-in-out infinite;
+  animation-direction: alternate;
+}
+@keyframes longdrop2 {
+  0% {left: 26.93vw; top: 101.04vw; transform: rotate(106deg)}
+  100% {left: 45.99vw; top: 104.95vw; transform: rotate(29deg)}
 }
 .circles2 {
-  height: 131px;
-  width: 86px;
-  left: 897px;
-  top: 1934px;
-  transform: rotate(-103deg);
+  width: 6.72vw;
+  left: 56.35vw;
+  top: 121.46vw;
+  transform: rotate(257deg);
+  transition: all 3s ease-in-out;
+}
+.circles2:hover {
+  width: 11.98vw;
+  left: 53.80vw;
+  top: 116.67vw;
+  transform: rotate(220deg);
+  filter: blur(20px);
+  transition: all 3s ease-in-out;
 }
 .softstar1 {
-  width: 178px;
-  height: 175px;
-  left: 950px;
-  top: 1733px;
-  transform: rotate(-22deg);
+  width: 12.55vw;
+  left: 76.93vw;
+  top: 111.72vw;
+  transform: rotate(16deg);
+  transition: all 3s ease-in-out;
+}
+.softstar1:hover {
+  width: 10.42vw;
+  left: 73.33vw;
+  top: 114.48vw;
+  transform: rotate(46deg);
+  filter: blur(10px);
+  transition: all 3s ease-in-out;
 }
 .cloud3 {
-  height: 190px;
-  width: 276px;
-  left: 1159px;
-  top: 1665px;
+  width: 16.46vw;
+  left: 89.64vw;
+  top: 120.05vw;
   transform: rotate(60deg);
+  filter: blur(10px);
+  transition: all 3s ease-in-out;
+}
+.softstar1:hover ~ .cloud3 {
+  width: 20.83vw;
+  left: 85.63vw;
+  top: 117.29vw;
+  transform: rotate(53deg);
+  filter: blur(0);
+  transition: all 3s ease-in-out;
 }
 .cloud4 {
-  height: 262px;
-  width: 380px;
-  left: 34px;
-  top: 2036px;
-  transform: rotate(-90deg);
+  width: 23.85vw;
+  left: 0.52vw;
+  top: 126.04vw;
+  transform: rotate(270deg);
+  animation: cloud4 9s ease-in-out infinite;
+  z-index: 1;
+}
+@keyframes cloud4 {
+  0% {width: 17.66vw; left: 3.85vw; top: 132.81vw; transform: rotate(261deg); filter: blur(20px); opacity: 0}
+  50% {width: 23.85vw; left: 0.52vw; top: 126.04vw; transform: rotate(270deg); filter: blur(0); opacity: 100%}
+  100% {width: 33.44vw; left: -3.07vw; top: 119.53vw; transform: rotate(298deg); filter: blur(20px); opacity: 0}
 }
 .tri1 {
-  width: 138px;
-  height: 184px;
-  left: 355px;
-  top: 2284px;
-  transform: rotate(-25deg);
+  width: 9.27vw;
+  left: 22.97vw;
+  top: 126.82vw;
+  transform: rotate(351deg);
+  animation: tri1 4.5s ease-in-out infinite;
+  animation-direction: alternate;
+  animation-delay: -4.5s;
+}
+@keyframes tri1 {
+  0% {width: 9.27vw; left: 22.97vw; top: 126.82vw; transform: rotate(351deg)}
+  100% {width: 12.81vw; left: 12.29vw; top: 122.24vw; transform: rotate(330deg)}
 }
 .tablet1 {
-  width: 154px;
-  height: 470px;
-  left: 654px;
-  top: 2151px;
-  transform: rotate(-43deg);
+  width: 10.10vw;
+  left: 44.64vw;
+  top: 129.06vw;
+  transform: rotate(317deg);
+  animation: tablet1 3s ease-in-out infinite;
+  animation-direction: alternate;
+}
+@keyframes tablet1 {
+  0% {width: 10.10vw; transform: rotate(317deg); filter: blur(0)}
+  100% {width: 5.63vw; transform: rotate(347deg); filter: blur(10px)}
 }
 .duodrop2 {
-  width: 434px;
-  height: 167px;
-  left: 837px;
-  top: 2058px;
-  transform: rotate(135deg);
-}
-.duodrop3 {
-  width: 434px;
-  height: 167px;
-  left: 930px;
-  top: 2262px;
-  transform: rotate(116deg);
-}
-.softtri3 {
-  height: 292px;
-  width: 279px;
-  left: 1203px;
-  top: 2433px;
-  transform: rotate(171deg);
+  width: 30.10vw;
+  left: 57.71vw;
+  top: 130vw;
+  transform: rotate(161deg);
+  transition: all 2s ease-in-out;
 }
 .circles3 {
-  width: 277px;
-  height: 277px;
-  left: 1143px;
-  top: 1961px;
+  width: 19.17vw;
+  left: 68.18vw;
+  top: 127.86vw;
+  z-index: 1;
+  transition: all 2s ease-in-out;
+}
+.circles3:hover {
+  width: 21.35vw;
+  left: 69.27vw;
+  filter: blur(2px);
+  transition: all 2s ease-in-out;
+}
+.duodrop3 {
+  width: 30.10vw;
+  left: 71.30vw;
+  top: 138.75vw;
+  transform: rotate(147deg);
+  z-index: 2;
+  transition: all 2s ease-in-out;
+}
+.circles3:hover ~ .duodrop2 {
+  width: 26.25vw;
+  left: 56.51vw;
+  top: 131.04vw;
+  transform: rotate(178deg);
+  filter: blur(10px);
+  transition: all 2s ease-in-out;
+}
+.circles3:hover ~ .duodrop3 {
+  width: 33.33vw;
+  left: 75.52vw;
+  top: 139.58vw;
+  transform: rotate(158deg);
+  filter: blur(20px);
+  transition: all 2s ease-in-out;
+}
+.softtri3 {
+  width: 16.09vw;
+  left: 86.25vw;
+  top: 153.07vw;
+  transform: rotate(31deg);
+  animation: softtri3 8s linear infinite;
+}
+@keyframes softtri3 {
+  0% {width: 16.09vw; left: 86.25vw; top: 153.07vw; transform: rotate(31deg)}
+  50% {width: 19.74vw; left: 83.33vw; top: 151.04vw; transform: rotate(211deg)}
+  100% {width: 16.09vw; left: 86.25vw; top: 153.07vw; transform: rotate(390deg)}
+}
+.divtri2 {
+  left: 2.45vw;
+  top: 150.47vw;
+  animation: divtri2 4s ease-in infinite;
+  animation-direction: alternate;
+}
+@keyframes divtri2 {
+  0% {left: 2.45vw}
+  100% {left: 12.81vw}
 }
 .tri2 {
-  width: 138px;
-  height: 125px;
-  left: 38px;
-  top: 2487px;
-  transform: rotate(11deg);
+  width: 9.11vw;
+  top: 0;
+  transform: rotate(16deg);
+  animation: tri2 4s ease-out infinite;
+  animation-direction: alternate;
+}
+@keyframes tri2 {
+  0% {top: 0}
+  100% {width: 6.51vw; top: 8.02vw; transform: rotate(-49deg);}
+}
+.divsoftstar2 {
+  left: 12.24vw;
+  top: 146.82vw;
+  animation: divsoftstar2 4s ease-out infinite;
+  animation-direction: alternate;
+}
+@keyframes divsoftstar2 {
+  0% {left: 12.24vw}
+  100% {left: 3.13vw}
 }
 .softstar2 {
-  width: 145px;
-  height: 143px;
-  left: 79px;
-  top: 2357px;
+  width: 10.94vw;
+  top: 0px;
   transform: rotate(-22deg);
+  animation: softstar2 4s ease-in infinite;
+  animation-direction: alternate;
+}
+@keyframes softstar2 {
+  0% {top: 0px; transform: rotate(-22deg)}
+  100% {width: 13.54vw; top: 5.73vw; transform: rotate(-90deg); filter: blur(10px)}
 }
 .u {
-  height: 214px;
-  width: 122px;
-  left: 233px;
-  top: 2459px;
+  width: 8.85vw;
+  left: 25vw;
+  top: 146.46vw;
+  animation: u 2s ease-in-out infinite;
+  animation-direction: alternate;
+  animation-delay: -1.8s;
+}
+@keyframes u {
+  0% {top: 146.46vw}
+  100% {top: 149.06vw}
 }
 .m2 {
-  height: 214px;
-  width: 153px;
-  left: 371px;
-  top: 2528px;
+  width: 11.09vw;
+  left: 34.90vw;
+  top: 150.78vw;
+  animation: m 2s ease-in-out infinite;
+  animation-direction: alternate;
+  animation-delay: -1.8s;
+}
+@keyframes m {
+  0% {top: 150.78vw}
+  100% {top: 148.18vw}
 }
 .circles4 {
-  width: 201px;
-  height: 201px;
-  left: 563px;
-  top: 2421px;
+  width: 13.70vw;
+  left: 41.25vw;
+  top: 145.63vw;
+  animation: circles4 3s ease-in-out infinite;
+  animation-direction: alternate;
+  z-index: 1;
+}
+@keyframes circles4 {
+  0% {width: 13.70vw; left: 41.25vw; top: 145.63vw}
+  100% {width: 10.57vw; left: 43.23vw; top: 138.59vw}
 }
 .tablet2 {
-  width: 100px;
-  height: 278px;
-  left: 689px;
-  top: 2559px;
-  transform: rotate(-18deg);
+  width: 7.08vw;
+  left: 49.53vw;
+  top: 155.94vw;
+  transform: rotate(342deg);
+  animation: tablet2 3s ease-in-out infinite;
+  animation-direction: alternate;
+}
+@keyframes tablet2 {
+  0% {width: 7.08vw; left: 49.53vw; top: 155.94vw; transform: rotate(342deg); filter: blur(10px)}
+  100% {width: 8.65vw; left: 49.64vw; top: 143.49vw; transform: rotate(368deg); filter: blur(0)}
+}
+.divsofttri4 {
+  width: 57.29vw;
+  height: 37.50vw;
+  left: -7.34vw;
+  top: 160.94vw;
+  overflow-y: hidden;
 }
 .softtri4 {
-  height: 443px;
-  width: 619px;
-  left: -105px;
-  top: 2721px;
-  transform: rotate(-118deg);
+  top: 15.63vw;
+  width: 41.67vw;
+  transform: rotate(200deg);
+  animation: softtri4 10s ease-in-out infinite;
+}
+@keyframes softtri4 {
+  0% {width: 34.06vw; transform: rotate(173deg); filter: blur(30px); opacity: 0}
+  50% {width: 41.67vw; transform: rotate(200deg); filter: blur(0px); opacity: 100%}
+  100% {width: 48.49vw; transform: rotate(229deg); filter: blur(40px); opacity: 0}
 }
 .arrow3 {
-  width: 201px;
-  height: 147px;
-  left: 441px;
-  top: 2714px;
+  width: 13.54vw;
+  left: 43.13vw;
+  top: 170.57vw;
   transform: rotate(58deg);
+  animation: arrow3 1s ease-in-out infinite;
+  animation-direction: alternate;
+}
+@keyframes arrow3 {
+  0% {left: 43.13vw; top: 170.57vw}
+  100% {left: 45.57vw; top: 173.96vw}
 }
 .tri3 {
-  width: 293px;
-  height: 233px;
-  left: 774px;
-  top: 2873px;
+  width: 18.23vw;
+  left: 61.98vw;
+  top: 159.38vw;
   transform: rotate(93deg);
+  transition: all 3s ease-in-out;
+}
+.tri3:hover {
+  width: 24.69vw;
+  left: 59.90vw;
+  top: 160vw;
+  transform: rotate(110deg);
+  filter: blur(30px);
+  opacity: 70%;
+  transition: all 3s ease-in-out;
 }
 .star4 {
-  height: 426px;
-  width: 373px;
-  left: 895px;
-  top: 2544px;
-  transform: rotate(-89deg);
+  width: 27.60vw;
+  left: 71.93vw;
+  top: 164.17vw;
 }
 .circlerow2 {
-  width: 380px;
-  height: 104px;
-  left: 1102px;
-  top: 2825px;
-  transform: rotate(19deg);
+  width: 26.35vw;
+  left: 43.39vw;
+  top: 183.39vw;
+  transform: rotate(339deg);
+  animation: circlerow2 4s ease-in-out infinite;
+  animation-direction: alternate;
+}
+@keyframes circlerow2 {
+  0% {width: 26.35vw; left: 43.39vw; top: 183.39vw; transform: rotate(-21deg)}
+  100% {width: 23.49vw; left: 49.27vw; top: 186.98vw; transform: rotate(3deg)}
 }
 .hse {
-  width: 317px;
-  height: 232px;
-  left: 1095px;
-  top: 3000px;
+  width: 16.93vw;
+  left: 76.82vw;
+  top: 183.23vw;
 }
+
+/* body {
+  background-color: #EDEDED;
+  width: 1920px;
+  overflow-x: hidden;
+}
+.all {
+  width: 1920px;
+  height: 3800px;
+}
+body img, body p, body div{
+  position: absolute;
+}
+p {
+  font-family: "PPNeueMontreal";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 47px;
+  line-height: 43px;
+}
+.final {
+  font-size: 34px;
+}
+.t1 {
+  width: 555px;
+  left: 664px;
+  top: 336px;
+  transform: rotate(-10deg);
+  z-index: 1;
+  animation: t1 3s ease-in-out infinite;
+  animation-direction: alternate;
+  transition: all 1s ease-in-out;
+}
+@keyframes t1 {
+  0% {top: 336px; transform: rotate(-10deg)}
+  100% {top: 380px; transform: rotate(10deg)}
+}
+.t1:hover {
+  filter: blur(10px);
+  color: #FF4400;
+  transition: all 1s ease-in-out;
+}
+.t2 {
+  width: 555px;
+  left: 874px;
+  top: 1423px;
+  transform: rotate(9deg);
+  z-index: 1;
+  animation: t2 3s ease-in-out infinite;
+  animation-direction: alternate;
+  transition: all 1s ease-in-out;
+}
+@keyframes t2 {
+  0% {top: 1423px; transform: rotate(9deg)}
+  100% {top: 1460px; transform: rotate(-11deg)}
+}
+.t2:hover {
+  filter: blur(10px);
+  color: #FF4400;
+  transition: all 1s ease-in-out;
+}
+.t3 {
+  width: 555px;
+  left: 494px;
+  top: 2225px;
+  transform: rotate(8deg);
+  z-index: 1;
+  animation: t3 3s ease-in-out infinite;
+  animation-direction: alternate;
+  animation-delay: -3s;
+  transition: all 1s ease-in-out;
+}
+@keyframes t3 {
+  0% {top: 2225px; transform: rotate(9deg)}
+  100% {top: 2260px; transform: rotate(-11deg)}
+}
+.t3:hover {
+  filter: blur(10px);
+  color: #FF4400;
+  transition: all 1s ease-in-out;
+}
+.final {
+  left: 130px;
+  top: 3510px;
+}
+.duodrop1 {
+  width: 410px;
+  left: -28px;
+  top: 241px;
+  transform: rotate(58deg);
+  animation: duodrop1 8s ease-in-out infinite;
+  animation-delay: -3s;
+  z-index: 2;
+}
+@keyframes duodrop1 {
+  0% {width: 288px; opacity: 80%; filter: blur(30px); transform: rotate(64deg); opacity: 0}
+  50% {left: -28px; top: 241px; width: 410px; opacity: 100%; filter: blur(0); transform: rotate(58deg); opacity: 100%}
+  100% {left: -162px; top: 10px; width: 568px; opacity: 90%; filter: blur(34px); transform: rotate(52deg); opacity: 0}
+}
+.l {
+  width: 170px;
+  left: 270px;
+  top: 112px;
+  animation: l 2s ease-in-out infinite;
+  animation-direction: alternate;
+  animation-delay: -1.5s;
+  z-index: 1;
+}
+@keyframes l {
+  0% {top: 112px}
+  100% {top: 162px}
+}
+.i1 {
+  width: 170px;
+  left: 462px;
+  top: 205px;
+  animation: i1 2s ease-in-out infinite;
+  animation-direction: alternate;
+  animation-delay: -1.5s;
+  z-index: 1;
+}
+@keyframes i1 {
+  0% {top: 205px}
+  100% {top: 155px}
+}
+.cloud1 {
+  width: 763px;
+  left: 611px;
+  top: -241px;
+  transform: rotate(333deg);
+  transition: all 2s ease-out;
+  z-index: 2;
+}
+.cloud1:hover {
+  width: 900px;
+  left: 532px;
+  top: -289px;
+  transform: rotate(338deg);
+  filter: blur(30px);
+  transition: all 2s ease-out;
+}
+.squaref1 {
+  width: 385px;
+  left: 1459px;
+  top: 100px;
+  transform: rotate(297deg);
+  animation: squaref1 10s ease-in-out infinite;
+  animation-delay: -5s;
+}
+@keyframes squaref1 {
+  0% {z-index: 1; width: 200px; left: 1350px; top: 80px; transform: rotate(297deg); opacity: 0; filter: blur(20px);}
+  50% {z-index: 0; width: 385px; left: 1459px; top: 100px; transform: rotate(315deg); opacity: 100%; filter: blur(0);}
+  100% {z-index: 0; width: 500px; left: 1600px; top: 10px; transform: rotate(356deg); opacity: 0; filter: blur(20px);}
+}
+.star1 {
+  width: 384px;
+  left: 0;
+  top: 440px;
+  transform: rotate(-17deg);
+  animation: star1 10s ease-in-out infinite;
+  z-index: 2;
+}
+@keyframes star1 {
+  0% {width: 290px; left: -20px; top: 384px; transform: rotate(340deg); filter: blur(15px); opacity: 0}
+  50% {width: 384px; left: 0; top: 440px; transform: rotate(334deg); filter: blur(0); opacity: 100%}
+  100%{width: 527px; left: -240px; top: 480px; transform: rotate(326deg); filter: blur(35px); opacity: 0}
+}
+.rect1 {
+  width: 62px;
+  left: 425px;
+  top: 556px;
+  transform: rotate(0);
+  filter: blur(0);
+  opacity: 100%;
+  transition: all 16s ease-in-out;
+}
+.rect1:hover {
+  transform: rotate(-2000deg);
+  filter: blur(20px);
+  opacity: 0;
+  transition: all 16s ease-in-out;
+}
+.rect2 {
+  width: 62px;
+  left: 512px;
+  top: 609px;
+  transform: rotate(115deg);
+  filter: blur(0);
+  opacity: 100%;
+  transition: all 16s ease-in-out;
+}
+.rect2:hover {
+  transform: rotate(2000deg);
+  filter: blur(20px);
+  opacity: 0;
+  transition: all 16s ease-in-out;
+}
+.arrow1 {
+  width: 13.54vw;;
+  left: 31.04vw;
+  top: 24.22vw;
+  transform: rotate(62deg);
+  animation: arrow1 1s ease-in-out infinite;
+  animation-direction: alternate;
+}
+@keyframes arrow1 {
+  0% {left: 31.04vw; top: 24.22vw}
+  100% {left: 33.65vw; top: 27.08vw}
+}
+.squares1 {
+  width: 238px;
+  left: 831px;
+  top: 442px;
+  transform: rotate(330deg);
+  animation: squares1 2s ease-in-out infinite;
+  animation-direction: alternate;
+  animation-delay: -1.3s;
+}
+@keyframes squares1 {
+  0% {left: 831px; transform: rotate(330deg)}
+  100% {left: 920px; transform: rotate(390deg)}
+}
+.star2 {
+  width: 204px;
+  left: 1095px;
+  top: 282px;
+  transform: rotate(35deg);
+  animation: star2 9s ease-in-out infinite;
+}
+@keyframes star2 {
+  0% {width: 124px; left: 1095px; top: 238px; transform: rotate(35deg); filter: blur(20px); opacity: 0}
+  50% {width: 204px; left: 1095px; top: 282px; transform: rotate(43deg); filter: blur(0); opacity: 100%}
+  100% {width: 354px; left: 1060px; top: 250px; transform: rotate(55deg); filter: blur(20px); opacity: 0}
+}
+.longdrop1 {
+  width: 319px;
+  left: 1256px;
+  top: 289px;
+  transform: rotate(33deg);
+  animation: longdrop1 10s ease-in-out infinite;
+}
+@keyframes longdrop1 {
+  0% {z-index: 0; width: 260px; left: 1190px; top: 230px; transform: rotate(9deg); opacity: 0; filter: blur(30px)}
+  50% {z-index: 1; width: 319px; left: 1256px; top: 289px; transform: rotate(33deg); opacity: 100%; filter: blur(0)}
+  100% {z-index: 1; width: 430px; left: 1380px; top: 0; transform: rotate(47deg); opacity: 0; filter: blur(30px)}
+}
+.m1 {
+  width: 213px;
+  left: 841px;
+  top: 1009px;
+  animation: m1 2s ease-in-out infinite;
+  animation-direction: alternate;
+}
+@keyframes m1 {
+  0% {top: 1009px}
+  100% {top: 1059px}
+}
+.i2 {
+  width: 170px;
+  left: 1082px;
+  top: 1067px;
+  animation: i2 2s ease-in-out infinite;
+  animation-direction: alternate;
+}
+@keyframes i2 {
+  0% {top: 1067px}
+  100% {top: 1017px}
+}
+.circlerow1 {
+  width: 760px;
+  left: 358px;
+  top: 804px;
+  transform: rotate(341deg);
+  filter: blur(0);
+  transition: all 1.5s ease-out;
+}
+.circlerow1:hover {
+  width: 846px;
+  top: 775px;
+  transform: rotate(348deg);
+  filter: blur(20px);
+  transition: all 1.5s ease-out;
+}
+.poly1 {
+  width: 222px;
+  left: 1629px;
+  top: 580px;
+  transform: rotate(226deg);
+  animation: poly1 2s ease-in-out infinite;
+  animation-direction: alternate;
+  z-index: 1;
+}
+.poly1:hover {
+  animation-play-state: paused;
+}
+@keyframes poly1 {
+  0% {width: 222px; top: 580px}
+  100% {width: 160px; top: 610px}
+}
+.poly2 {
+  width: 141px;
+  left: 1415px;
+  top: 643px;
+  transform: rotate(314deg);
+  animation: poly2 5s linear infinite;
+  z-index: 1;
+}
+.poly2:hover {
+  animation-play-state: paused;
+}
+@keyframes poly2 {
+  0% {transform: rotate(314deg)}
+  100% {transform: rotate(674deg)}
+}
+.drop1 {
+  width: 110px;
+  left: 1587px;
+  top: 823px;
+  transform: rotate(150deg);
+  animation: drop1 2s ease-in-out infinite;
+  animation-direction: alternate;
+  z-index: 1;
+}
+.drop1:hover {
+  animation-play-state: paused;
+}
+@keyframes drop1 {
+  0% {left: 1587px; top: 823px; transform: rotate(150deg)}
+  100% {left: 1685px; top: 846px; transform: rotate(140deg)}
+}
+.softtri1 {
+  width: 467px;
+  left: 1219px;
+  top: 843px;
+  transform: rotate(320deg);
+  animation: softtri1 2s ease-in-out infinite;
+  animation-direction: alternate;
+}
+@keyframes softtri1 {
+  0% {left: 1219px; top: 843px; transform: rotate(320deg)}
+  100% {left: 1338px; top: 900px; transform: rotate(303deg)}
+}
+.softtri2 {
+  width: 467px;
+  left: 1386px;
+  top: 891px;
+  transform: rotate(311deg);
+  animation: softtri2 2s ease-in-out infinite;
+  animation-direction: alternate;
+}
+@keyframes softtri2 {
+  0% {left: 1386px; top: 891px; transform: rotate(311deg)}
+  100% {left: 1430px; top: 934px; transform: rotate(296deg)}
+}
+.circles1 {
+  width: 695px;
+  left: -59px;
+  top: 812px;
+  transform: rotate(287deg);
+  z-index: 1;
+  animation: circles1 2s ease-in-out infinite;
+  animation-direction: alternate;
+}
+@keyframes circles1 {
+  0% {left: -59px; top: 812px; transform: rotate(287deg)}
+  100% {left: -43px; top: 765px; transform: rotate(278deg)}
+}
+.circlef1 {
+  width: 695px;
+  left: -46px;
+  top: 900px;
+  transform: rotate(273deg);
+  animation: circlef1 2s ease-in-out infinite;
+  animation-direction: alternate;
+}
+@keyframes circlef1 {
+  0% {top: 900px; transform: rotate(287deg)}
+  100% {top: 938px; transform: rotate(299deg)}
+}
+.cloud2 {
+  width: 259px;
+  left: 1048px;
+  top: 969px;
+  transform: rotate(30deg);
+  animation: cloud2 2s ease-in-out infinite;
+  animation-direction: alternate;
+  animation-delay: -1s;
+}
+@keyframes cloud2 {
+  0% {width: 259px; transform: rotate(30deg); filter: blur(0)}
+  100% {width: 199px; transform: rotate(38deg); filter: blur(20px)}
+}
+.circlef2 {
+  width: 138px;
+  left: 912px;
+  top: 1365px;
+  transform: rotate(336deg);
+  animation: circlef2 3s ease-in-out infinite;
+  animation-direction: alternate;
+}
+@keyframes circlef2 {
+  0% {left: 912px; transform: rotate(336deg)}
+  100% {left: 1011px; transform: rotate(265deg)}
+}
+.poly3 {
+  width: 200px;
+  left: 1367px;
+  top: 1482px;
+  transform: rotate(351deg);
+  filter: blur(0);
+  animation: poly3 4s linear infinite;
+}
+@keyframes poly3 {
+  0% {transform: rotate(351deg); filter: blur(0)}
+  50% {transform: rotate(533deg); filter: blur(30px); opacity: 50%}
+  100% {transform: rotate(710deg); filter: blur(0)}
+}
+.poly3:hover {
+  animation-play-state: paused;
+}
+.star3 {
+  width: 300px;
+  left: 1716px;
+  top: 1446px;
+  transform: rotate(181deg);
+  transition: all 2s ease-in-out;
+}
+.star3:hover {
+  width: 366px;
+  left: 1642px;
+  top: 1427px;
+  filter: blur(20px);
+  transform: rotate(deg);
+  transition: all 2s ease-in-out;
+}
+.rect3 {
+  width: 152px;
+  left: 1180px;
+  top: 1527px;
+  transform: rotate(328deg);
+  animation: rect3 4s ease-in-out infinite;
+  animation-direction: alternate;
+}
+@keyframes rect3 {
+  0% {left: 1180px; top: 1527px; transform: rotate(328deg)}
+  100% {left: 1254px; top: 1611px; transform: rotate(306deg); filter: blur(10px)}
+}
+.rect4 {
+  width: 152px;
+  left: 1378px;
+  top: 1723px;
+  transform: rotate(40deg);
+  animation: rect4 4s ease-in-out infinite;
+  animation-direction: alternate;
+}
+@keyframes rect4 {
+  0% {left: 1378px; top: 1723px; transform: rotate(40deg)}
+  100% {left: 1317px; top: 1604px; transform: rotate(63deg)}
+}
+.arrow2 {
+  width: 260px;
+  left: 1665px;
+  top: 1875px;
+  transform: rotate(117deg);
+  animation: arrow2 1s ease-in-out infinite;
+  animation-direction: alternate;
+}
+@keyframes arrow2 {
+  0% {left: 1665px; top: 1875px}
+  100% {left: 1620px; top: 1940px}
+}
+.circlef3 {
+  width: 211px;
+  left: 54px;
+  top: 1811px;
+  transform: rotate(223deg);
+  animation: circlef3 1.2s ease-in infinite;
+  animation-direction: alternate;
+}
+@keyframes circlef3 {
+  0% {left: 29px; transform: rotate(223deg); filter: blur(10px)}
+  100% {left: 72px; transform: rotate(284deg)}
+}
+.circlef4 {
+  width: 148px;
+  left: 304px;
+  top: 1955px;
+  transform: rotate(284deg);
+  animation: circlef4 1.2s ease-in infinite;
+  animation-direction: alternate;
+}
+@keyframes circlef4 {
+  0% {left: 304px; transform: rotate(284deg); filter: blur(10px)}
+  100% {left: 271px; transform: rotate(218deg)}
+}
+.drop2 {
+  width: 158px;
+  left: 90px;
+  top: 2070px;
+  transform: rotate(-108deg);
+  animation: drop2 4s linear infinite;
+}
+@keyframes drop2 {
+  0% {width: 64px; left: 258px; top: 2141px; transform: rotate(68deg); opacity: 0; filter: blur(10px)}
+  50% {width: 116px; left: 54px; top: 2068px; transform: rotate(234deg); opacity: 100%; filter: blur(0)}
+  100% {width: 210px; left: -150px; top: 1996px; transform: rotate(400deg); opacity: 0; filter: blur(20px)}
+}
+.squares2 {
+  width: 323px;
+  left: 523px;
+  top: 1675px;
+  transform: rotate(25deg);
+  animation: squares2 2s ease-in-out infinite;
+  animation-direction: alternate;
+  animation-delay: -1s;
+}
+@keyframes squares2 {
+  0% {top: 1675px; transform: rotate(25deg)}
+  100% {top: 1825px; transform: rotate(38deg)}
+}
+.n {
+  width: 170px;
+  left: 646px;
+  top: 1772px;
+  animation: n 2s ease-in-out infinite;
+  animation-direction: alternate;
+  animation-delay: -1s;
+}
+@keyframes n {
+  0% {top: 1772px}
+  100% {top: 1822px}
+}
+.i3 {
+  width: 170px;
+  left: 836px;
+  top: 1838px;
+  animation: i3 2s ease-in-out infinite;
+  animation-direction: alternate;
+  animation-delay: -1s;
+}
+@keyframes i3 {
+  0% {top: 1838px}
+  100% {top: 1788px}
+}
+.poly4 {
+  width: 571px;
+  left: 487px;
+  top: 1844px;
+  transform: rotate(20deg);
+}
+.longdrop2 {
+  width: 228px;
+  left: 517px;
+  top: 1940px;
+  transform: rotate(106deg);
+  animation: longdrop2 10s ease-in-out infinite;
+  animation-direction: alternate;
+}
+@keyframes longdrop2 {
+  0% {left: 517px; top: 1940px; transform: rotate(106deg)}
+  100% {left: 883px; top: 2015px; transform: rotate(29deg)}
+}
+.circles2 {
+  width: 129px;
+  left: 1082px;
+  top: 2332px;
+  transform: rotate(257deg);
+  transition: all 3s ease-in-out;
+}
+.circles2:hover {
+  width: 230px;
+  left: 1033px;
+  top: 2240px;
+  transform: rotate(220deg);
+  filter: blur(20px);
+  transition: all 3s ease-in-out;
+}
+.softstar1 {
+  width: 241px;
+  left: 1477px;
+  top: 2145px;
+  transform: rotate(16deg);
+  transition: all 3s ease-in-out;
+}
+.softstar1:hover {
+  width: 200px;
+  left: 1408px;
+  top: 2198px;
+  transform: rotate(46deg);
+  filter: blur(10px);
+  transition: all 3s ease-in-out;
+}
+.cloud3 {
+  width: 316px;
+  left: 1721px;
+  top: 2305px;
+  transform: rotate(60deg);
+  filter: blur(10px);
+  transition: all 3s ease-in-out;
+}
+.softstar1:hover ~ .cloud3 {
+  width: 400px;
+  left: 1644px;
+  top: 2252px;
+  transform: rotate(53deg);
+  filter: blur(0);
+  transition: all 3s ease-in-out;
+}
+.cloud4 {
+  width: 458px;
+  left: 10px;
+  top: 2420px;
+  transform: rotate(270deg);
+  animation: cloud4 9s ease-in-out infinite;
+  z-index: 1;
+}
+@keyframes cloud4 {
+  0% {width: 339px; left: 74px; top: 2550px; transform: rotate(261deg); filter: blur(20px); opacity: 0}
+  50% {width: 458px; left: 10px; top: 2420px; transform: rotate(270deg); filter: blur(0); opacity: 100%}
+  100% {width: 642px; left: -59px; top: 2295px; transform: rotate(298deg); filter: blur(20px); opacity: 0}
+}
+.tri1 {
+  width: 178px;
+  left: 441px;
+  top: 2435px;
+  transform: rotate(351deg);
+  animation: tri1 4.5s ease-in-out infinite;
+  animation-direction: alternate;
+  animation-delay: -4.5s;
+}
+@keyframes tri1 {
+  0% {width: 178px; left: 441px; top: 2435px; transform: rotate(351deg)}
+  100% {width: 246px; left: 236px; top: 2347px; transform: rotate(330deg)}
+}
+.tablet1 {
+  width: 194px;
+  left: 857px;
+  top: 2478px;
+  transform: rotate(317deg);
+  animation: tablet1 3s ease-in-out infinite;
+  animation-direction: alternate;
+}
+@keyframes tablet1 {
+  0% {width: 194px; transform: rotate(317deg); filter: blur(0)}
+  100% {width: 108px; transform: rotate(347deg); filter: blur(10px)}
+}
+.duodrop2 {
+  width: 578px;
+  left: 1108px;
+  top: 2496px;
+  transform: rotate(161deg);
+  transition: all 2s ease-in-out;
+}
+.circles3 {
+  width: 368px;
+  left: 1309px;
+  top: 2455px;
+  z-index: 1;
+  transition: all 2s ease-in-out;
+}
+.circles3:hover {
+  width: 410px;
+  left: 1330px;
+  filter: blur(2px);
+  transition: all 2s ease-in-out;
+}
+.duodrop3 {
+  width: 578px;
+  left: 1369px;
+  top: 2664px;
+  transform: rotate(147deg);
+  z-index: 2;
+  transition: all 2s ease-in-out;
+}
+.circles3:hover ~ .duodrop2 {
+  width: 504px;
+  left: 1085px;
+  top: 2516px;
+  transform: rotate(178deg);
+  filter: blur(10px);
+  transition: all 2s ease-in-out;
+}
+.circles3:hover ~ .duodrop3 {
+  width: 640px;
+  left: 1450px;
+  top: 2680px;
+  transform: rotate(158deg);
+  filter: blur(20px);
+  transition: all 2s ease-in-out;
+}
+.softtri3 {
+  width: 309px;
+  left: 1656px;
+  top: 2939px;
+  transform: rotate(31deg);
+  animation: softtri3 8s linear infinite;
+}
+@keyframes softtri3 {
+  0% {width: 309px; left: 1656px; top: 2939px; transform: rotate(31deg)}
+  50% {width: 379px; left: 1600px; top: 2900px; transform: rotate(211deg)}
+  100% {width: 309px; left: 1656px; top: 2939px; transform: rotate(390deg)}
+}
+.divtri2 {
+  left: 47px;
+  top: 2889px;
+  animation: divtri2 4s ease-in infinite;
+  animation-direction: alternate;
+}
+@keyframes divtri2 {
+  0% {left: 47px}
+  100% {left: 246px}
+}
+.tri2 {
+  width: 175px;
+  top: 0;
+  transform: rotate(16deg);
+  animation: tri2 4s ease-out infinite;
+  animation-direction: alternate;
+}
+@keyframes tri2 {
+  0% {top: 0}
+  100% {width: 125px; top: 154px; transform: rotate(-49deg);}
+}
+.divsoftstar2 {
+  left: 235px;
+  top: 2819px;
+  animation: divsoftstar2 4s ease-out infinite;
+  animation-direction: alternate;
+}
+@keyframes divsoftstar2 {
+  0% {left: 235px}
+  100% {left: 60px}
+}
+.softstar2 {
+  width: 210px;
+  top: 0px;
+  transform: rotate(-22deg);
+  animation: softstar2 4s ease-in infinite;
+  animation-direction: alternate;
+}
+@keyframes softstar2 {
+  0% {top: 0px; transform: rotate(-22deg)}
+  100% {width: 260px; top: 110px; transform: rotate(-90deg); filter: blur(10px)}
+}
+.u {
+  width: 170px;
+  left: 480px;
+  top: 2812px;
+  animation: u 2s ease-in-out infinite;
+  animation-direction: alternate;
+  animation-delay: -1.8s;
+}
+@keyframes u {
+  0% {top: 2812px}
+  100% {top: 2862px}
+}
+.m2 {
+  width: 213px;
+  left: 670px;
+  top: 2895px;
+  animation: m 2s ease-in-out infinite;
+  animation-direction: alternate;
+  animation-delay: -1.8s;
+}
+@keyframes m {
+  0% {top: 2895px}
+  100% {top: 2845px}
+}
+.circles4 {
+  width: 263px;
+  left: 792px;
+  top: 2796px;
+  animation: circles4 3s ease-in-out infinite;
+  animation-direction: alternate;
+  z-index: 1;
+}
+@keyframes circles4 {
+  0% {width: 263px; left: 792px; top: 2796px}
+  100% {width: 203px; left: 830px; top: 2661px}
+}
+.tablet2 {
+  width: 136px;
+  left: 951px;
+  top: 2994px;
+  transform: rotate(342deg);
+  animation: tablet2 3s ease-in-out infinite;
+  animation-direction: alternate;
+}
+@keyframes tablet2 {
+  0% {width: 136px; left: 951px; top: 2994px; transform: rotate(342deg); filter: blur(10px)}
+  100% {width: 166px; left: 953px; top: 2755px; transform: rotate(368deg); filter: blur(0)}
+}
+.divsofttri4 {
+  width: 1100px;
+  height: 720px;
+  left: -141px;
+  top: 3090px;
+  overflow-y: hidden;
+}
+.softtri4 {
+  top: 300px;
+  width: 800px;
+  transform: rotate(200deg);
+  animation: softtri4 10s ease-in-out infinite;
+}
+@keyframes softtri4 {
+  0% {width: 654px; transform: rotate(173deg); filter: blur(30px); opacity: 0}
+  50% {width: 800px; transform: rotate(200deg); filter: blur(0px); opacity: 100%}
+  100% {width: 931px; transform: rotate(229deg); filter: blur(40px); opacity: 0}
+}
+.arrow3 {
+  width: 260px;
+  left: 828px;
+  top: 3275px;
+  transform: rotate(58deg);
+  animation: arrow3 1s ease-in-out infinite;
+  animation-direction: alternate;
+}
+@keyframes arrow3 {
+  0% {left: 828px; top: 3275px}
+  100% {left: 875px; top: 3340px}
+}
+.tri3 {
+  width: 350px;
+  left: 1190px;
+  top: 3060px;
+  transform: rotate(93deg);
+  transition: all 3s ease-in-out;
+}
+.tri3:hover {
+  width: 474px;
+  left: 1150px;
+  top: 3072px;
+  transform: rotate(110deg);
+  filter: blur(30px);
+  opacity: 70%;
+  transition: all 3s ease-in-out;
+}
+.star4 {
+  width: 530px;
+  left: 1381px;
+  top: 3152px;
+}
+.circlerow2 {
+  width: 506px;
+  left: 833px;
+  top: 3521px;
+  transform: rotate(339deg);
+  animation: circlerow2 4s ease-in-out infinite;
+  animation-direction: alternate;
+}
+@keyframes circlerow2 {
+  0% {width: 506px; left: 833px; top: 3521px; transform: rotate(-21deg)}
+  100% {width: 451px; left: 946px; top: 3590px; transform: rotate(3deg)}
+}
+.hse {
+  width: 325px;
+  left: 1475px;
+  top: 3518px;
+} */
