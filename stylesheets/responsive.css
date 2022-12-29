@@ -1,0 +1,155 @@
+@media all and (max-width: 428px) {
+  p {
+    font-family: "PPNeueMontreal";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 4vw;
+    line-height: 4vw;
+  }
+  .t1 {
+    width: 31.9vw;
+    left: 47.58vw;
+    top: 34.58vw;
+    transform: rotate(-10deg);
+    z-index: 1;
+    animation: t1 3s ease-in-out infinite;
+    animation-direction: alternate;
+    transition: all 1s ease-in-out;
+  }
+  .t2 {
+    width: 43.91vw;
+    left: 45.52vw;
+    top: 74.11vw;
+    transform: rotate(9deg);
+    z-index: 1;
+    animation: t2 3s ease-in-out infinite;
+    animation-direction: alternate;
+    transition: all 1s ease-in-out;
+  }
+  @keyframes t2 {
+    0% {top: 80vw; transform: rotate(9deg)}
+    100% {top: 82vw; transform: rotate(-11deg)}
+  }
+  .t3 {
+    width: 44.91vw;
+    left: 25.73vw;
+    top: 115.89vw;
+    transform: rotate(8deg);
+    z-index: 1;
+    animation: t3 3s ease-in-out infinite;
+    animation-direction: alternate;
+    animation-delay: -3s;
+    transition: all 1s ease-in-out;
+  }
+  @keyframes t3 {
+    0% {top: 124vw; transform: rotate(9deg)}
+    100% {top: 128vw; transform: rotate(-11deg)}
+  }
+  .hse {
+    width: 28.93vw;
+    left: 69.82vw;
+    top: 178.23vw;
+  }
+  .final {
+    font-size: 2.6vw;
+    left: 7.77vw;
+    top: 183.81vw;
+    line-height: 2.6vw;
+  }
+  .l {
+    width: 13.85vw;
+    left: 14.06vw;
+    top: 5.83vw;
+    animation: l 2s ease-in-out infinite;
+    animation-direction: alternate;
+    animation-delay: -1.5s;
+    z-index: 1;
+  }
+  @keyframes l {
+    0% {top: 5.83vw}
+    100% {top: 8.44vw}
+  }
+  .i1 {
+    width: 13.85vw;
+    left: 29.06vw;
+    top: 10.68vw;
+    animation: i1 2s ease-in-out infinite;
+    animation-direction: alternate;
+    animation-delay: -1.5s;
+    z-index: 1;
+  }
+  @keyframes i1 {
+    0% {top: 10.68vw}
+    100% {top: 8.07vw}
+  }
+  .m1 {
+    width: 17.3vw;
+    left: 43.80vw;
+    top: 52.55vw;
+    animation: m1 2s ease-in-out infinite;
+    animation-direction: alternate;
+  }
+  @keyframes m1 {
+    0% {top: 52.55vw}
+    100% {top: 55.16vw}
+  }
+  .i2 {
+    width: 13.85vw;
+    left: 63.35vw;
+    top: 55.57vw;
+    animation: i2 2s ease-in-out infinite;
+    animation-direction: alternate;
+  }
+  @keyframes i2 {
+    0% {top: 55.57vw}
+    100% {top: 52.97vw}
+  }
+  .n {
+    width: 13.85vw;
+    left: 29.6vw;
+    top: 92.29vw;
+    animation: n 2s ease-in-out infinite;
+    animation-direction: alternate;
+    animation-delay: -1s;
+  }
+  @keyframes n {
+    0% {top: 92.29vw}
+    100% {top: 94.90vw}
+  }
+  .i3 {
+    width: 13.85vw;
+    left: 45.54vw;
+    top: 95.73vw;
+    animation: i3 2s ease-in-out infinite;
+    animation-direction: alternate;
+    animation-delay: -1s;
+  }
+  @keyframes i3 {
+    0% {top: 95.73vw}
+    100% {top: 93.13vw}
+  }
+  .u {
+    width: 13.85vw;
+    left: 20vw;
+    top: 146.46vw;
+    animation: u 2s ease-in-out infinite;
+    animation-direction: alternate;
+    animation-delay: -1.8s;
+  }
+  @keyframes u {
+    0% {top: 146.46vw}
+    100% {top: 149.06vw}
+  }
+  .m2 {
+    width: 17.3vw;
+    left: 35.9vw;
+    top: 150.78vw;
+    animation: m 2s ease-in-out infinite;
+    animation-direction: alternate;
+    animation-delay: -1.8s;
+  }
+  @keyframes m {
+    0% {top: 150.78vw}
+    100% {top: 148.18vw}
+  }
+}
