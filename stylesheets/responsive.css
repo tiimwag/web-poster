@@ -1,4 +1,7 @@
 @media all and (max-width: 428px) {
+  body {
+    overflow-x: hidden;
+  }
   p {
     font-family: "PPNeueMontreal";
     font-style: normal;
@@ -58,7 +61,7 @@
   }
   .l {
     width: 13.85vw;
-    left: 14.06vw;
+    left: 13.06vw;
     top: 5.83vw;
     animation: l 2s ease-in-out infinite;
     animation-direction: alternate;
